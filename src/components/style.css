@@ -1,3 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+.card {
+  height: 500px;
+}
+
+table {
+  font-size: 13px;
+}
 .table-scroll tbody {
   position: absolute;
   overflow-y: scroll;
@@ -12,4 +24,22 @@
 
 .table-scroll thead > tr > th {
   border: none;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #979797 !important;
+}
+
+thead tr {
+  border-right: 0px;
+  border-left: 0px;
+}
+
+tr {
+  height: 50px;
 }

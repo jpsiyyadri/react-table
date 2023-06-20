@@ -242,7 +242,10 @@ export const CustomTable = () => {
       <BTable className="table hovered table-fixed table-scroll" size="lg">
         <thead>
           {table.getHeaderGroups().map((headerGroup) => (
-            <tr key={headerGroup.id} className="border-bottom-1">
+            <tr
+              key={headerGroup.id}
+              className="border-1 border-left-0 border-right-0"
+            >
               {headerGroup.headers.map((header) => (
                 <th key={header.id} colSpan={header.colSpan}>
                   {header.isPlaceholder
