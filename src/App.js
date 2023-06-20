@@ -31,11 +31,6 @@ const App = () => {
                 Delete
               </BButton>
             </div>
-            <div>
-              <BButton className="rounded-5" size="sm">
-                Translate New Documents
-              </BButton>
-            </div>
           </div>
           {/* <div class="table-wrapper-scroll-y my-custom-scrollbar"> */}
           <CustomTable />
